@@ -32,7 +32,7 @@
             respostaContinuar = Console.ReadLine();
 
         }
-        while (respostaContinuar == "s" || respostaContinuar == "n");
+        while (respostaContinuar == "s");
 
 
 
