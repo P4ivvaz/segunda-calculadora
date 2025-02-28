@@ -22,8 +22,15 @@
                     break;
 
                 case "/":
-                    valor = n1 / n2;
-                    Console.WriteLine("Division:" + valor);
+                    if (n2 == 0)
+                    {
+                        Console.WriteLine("Erro: Divisão por zero não é permitida.");
+                    }
+                    else
+                    {
+                        valor = n1 / n2;
+                        Console.WriteLine("Division: " + valor);
+                    }
                     break;
 
                 case "+":
