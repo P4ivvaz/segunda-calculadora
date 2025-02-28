@@ -26,6 +26,16 @@
                     Console.WriteLine("Division:" + valor);
                     break;
 
+                case "+":
+                    valor = n1 + n2;
+                    Console.WriteLine("adição:" + valor);
+                    break;
+
+                case "-":
+                    valor = n1 - n2;
+                    Console.WriteLine("subtração:" + valor);
+                    break;
+
 
             }
             Console.Write("Deseja continuar(s/n):");
