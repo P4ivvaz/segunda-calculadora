@@ -33,7 +33,7 @@
 
                 case "-":
                     valor = n1 - n2;
-                    Console.WriteLine("subtração:" + valor);
+                    Console.WriteLine("subtraçãoo:" + valor);
                     break;
 
 
